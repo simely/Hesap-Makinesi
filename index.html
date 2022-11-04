@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Makinesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="makine">
+
+        <div id="ekran">
+            <input id="yazdir" type="text" readonly>
+        </div>
+
+        <div id="butonlar">
+
+            <div id="sonSatir">
+                <input class="rakam" type="button" onclick='v("7")' value="7">
+                <input class="rakam" type="button" onclick='v("8")' value="8">
+                <input class="rakam" type="button" onclick='v("9")' value="9">
+                <input class="islem" type="button" onclick='v("/")' value="/">
+            </div>
+
+            <div id="ucuncuSatir">
+                <input class="rakam" type="button" onclick='v("4")' value="4">
+                <input class="rakam" type="button" onclick='v("5")' value="5">
+                <input class="rakam" type="button" onclick='v("6")' value="6">
+                <input class="islem" type="button" onclick='v("*")' value="*">
+            </div>
+
+            <div id="ikinciSatir">
+                <input class="rakam" type="button" onclick='v("1")' value="1">
+                <input class="rakam" type="button" onclick='v("2")' value="2">
+                <input class="rakam" type="button" onclick='v("3")' value="3">
+                <input class="islem" type="button" onclick='v("-")' value="-">
+            </div>
+
+            <div id="ilkSatir">
+                <input class="sifir" type="button" onclick='v("0")' value="0">
+                <input class="rakam" type="button" onclick='v(".")' value=".">
+                <input class="islem" type="button" onclick='v("+")' value="+">
+            </div>
+
+            <div id="temizle">
+                <input class="sil" type="button" onclick='c("")' value="C">
+            </div>
+
+            <div id="sonuc">
+                <input class="esittir" type="button" onclick='e()' value="=">
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

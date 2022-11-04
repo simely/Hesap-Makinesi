@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#makine{
+    height: 340px;
+    width: 325px;
+    background-color: rgb(35, 35, 35);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+}
+
+#ekran input{
+    height: 50px;
+    width: 287px;
+    position: relative;
+    left: 17px;
+    top: 25px;
+    background-color: darkseagreen;
+    text-align: right;
+    font-size: 45px;
+    color: white;
+    border-radius: 5px; 
+}
+
+#butonlar{
+    height: 225px;
+    width: 275px;
+    position: relative;
+    left: 14px;
+    top: 45px;
+}
+
+#butonlar input{
+    border-radius: 5px;
+}
+
+#butonlar .rakam{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(116, 116, 116);
+    margin: 3px;
+}
+
+#butonlar .rakam:hover{
+    background-color: rgb(163, 163, 163)
+}
+
+#butonlar #ilkSatir .rakam{
+    margin-left: 8px;
+}
+
+#butonlar .islem{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(189, 189, 189);
+    margin-left: 2px;
+}
+
+#butonlar .islem:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+#butonlar .sifir{
+    height: 50px;
+    width: 111px;
+    background-color: rgb(116, 116, 116);
+    position: relative;
+    left: 3px;
+}
+
+#butonlar .sifir:hover{
+    background-color: rgb(163, 163, 163);
+}
+
+#butonlar #temizle input{
+    height: 106px;
+    width: 50px;
+    background-color: rgb(125, 148, 170);
+    margin: 8px;
+    position: relative;
+    left: 228px;
+    bottom: 229px;
+    margin-left: 13px;
+}
+
+#butonlar #temizle input:hover{
+    background-color: rgb(135, 161, 186);
+}
+
+#butonlar #sonuc input{
+    height: 106px;
+    width: 50px;
+    background-color: rgb(125, 148, 170);
+    margin-left: 8px;
+    position: relative;
+    left: 228px;
+    bottom: 231px;
+    margin-left: 13px;
+}
+
+#butonlar #sonuc input:hover{
+    background-color: rgb(135, 161, 186);
+}
